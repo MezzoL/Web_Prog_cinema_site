@@ -41,7 +41,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 
     if (count($validation) === 0) {
-        $query = $pdo->prepare('INSERT INTO moviebookingrequests(movie, name, email, phone) VALUES(?, ?, ?, ?)');
+        $query = $pdo->prepare('INSERT INTO movierequests(movie, name, email, phone) VALUES(?, ?, ?, ?)');
         $query->execute([$movie, $name, $email, $phone]);
 
         $errors = $pdo->errorInfo();
