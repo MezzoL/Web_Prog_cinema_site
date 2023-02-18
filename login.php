@@ -58,12 +58,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     } else {
         $validation['username'] = 'Username field is required.';
     }
-
 }
 ?>
-
-
-
     <body>
     <?php include_once 'includes/nav.php' ?>
         <h1>LOGIN</h1>

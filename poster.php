@@ -6,9 +6,6 @@
         $categories = $pdo->query("SELECT * FROM movies");
     } catch (Throwable $exp) { }
 ?>
-
-
-
     <body>
         <?php include_once 'includes/nav.php' ?>
         <?php

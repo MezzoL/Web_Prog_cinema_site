@@ -30,12 +30,8 @@ if (isset($_GET['movie_id']) AND !isset($_SESSION["id"])){
      <div class="wave"></div>
          </div>
 
-            <h1>CINEMA CITY</h1>
+            <h1>CINEMA</h1>
             <div class="center"><h2 class="animate-character">Let the movies carry you away</h2></div>
-            
-           
-   
-            
 
             <div class= "flex">
                 <?php
